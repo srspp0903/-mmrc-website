@@ -367,6 +367,34 @@ a { text-decoration: none; color: inherit; }
   color: var(--gold);
 }
 
+.story__image-photo {
+  width: 100%;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: 4px;
+}
+
+.story__image-caption {
+  margin-top: 10px;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  color: var(--muted);
+  text-align: center;
+}
+
+.story__tagline {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  color: var(--dark) !important;
+  letter-spacing: 0.05em;
+  border-left: 2px solid var(--gold);
+  padding-left: 16px;
+  margin-top: 28px !important;
+}
+
 .story__content .section__label { margin-bottom: 20px; }
 
 .story__heading {
