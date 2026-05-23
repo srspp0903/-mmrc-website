@@ -291,9 +291,9 @@ a { text-decoration: none; color: inherit; }
   justify-content: center;
 }
 
-.product__img--1 { background: linear-gradient(135deg, #1a1a1a 0%, #2c2a24 100%); }
-.product__img--2 { background: linear-gradient(135deg, #2a2520 0%, #3d3528 100%); }
-.product__img--3 { background: linear-gradient(135deg, #1e1c18 0%, #332e24 100%); }
+.product__img--1 { background: url('assets/product-blend.png') center/cover no-repeat; }
+.product__img--2 { background: url('assets/product-drip.png') center/cover no-repeat; }
+.product__img--3 { background: url('assets/product-gift.png') center/cover no-repeat; }
 
 .product__badge {
   background: var(--gold);
