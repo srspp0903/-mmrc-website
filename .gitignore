@@ -1,0 +1,8 @@
+# 機密情報（絶対にGitHubにアップしない）
+secrets.txt
+.env
+*.env
+.env.local
+
+# macOS
+.DS_Store
